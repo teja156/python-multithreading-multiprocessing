@@ -6,7 +6,7 @@ Code written to demonstrate the performance difference between single threading,
 
 ## Code
 The code tries to crack a SHA256 password hash with the help of the wordlist `rockyou.txt` using dictionary attack.
-You will need to download rockyou.txt manually from (here)[https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt] and add it to the code path.
+You will need to download rockyou.txt manually from [here](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) and add it to the code path.
 singlethread.py - Code written for single thread (ie., a normal program)
 multithread.py - Code written to work with 4 threads
 multiprocess.py - Code written to work with 4 processes
